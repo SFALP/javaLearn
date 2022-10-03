@@ -1,6 +1,8 @@
 package Practice_Day04_220927;
 
-public class Q08_StringManipulation__ {
+public class Q08_StringManipulation {
+    public static void main(String[] args) {
+
 
     /*
 		name1 ve name2 degiskenlerini olusturun.
@@ -11,5 +13,14 @@ public class Q08_StringManipulation__ {
 		         name2= ahmet
 		         Print ==> mehahmetmet
 		*/
+
+        String a = "Mehmet";
+        String b = "Ahmet";
+
+        if (a.length() % 2 == 0) {
+            System.out.println(a.substring(0, a.length() / 2) + b + a.substring(a.length() / 2));
+        } else
+            System.out.println(a + "cift sayili olmadigi icin ortasina yerlestiremedik");
+    }
 
 }

@@ -1,12 +1,11 @@
 package j11_Method_Creation.tasks;
 
-public class Task13___ {
+public class Task13 {
 
     public static void main(String[] args) {
 
     /*46----
     Yazılan iki String'den ikincisi, birincisinin son harflerine eşitse, true, diğer durumda false dönderen  method create ediniz
-
     Örnekler:
     kontrolEt("abc", "bc") ➞ true
     kontrolEt("abc", "d") ➞ false
@@ -24,7 +23,4 @@ public class Task13___ {
         System.out.println(x.endsWith(y));
         System.out.println(x.endsWith(z));
     }
-
-
-
-    }
+}
