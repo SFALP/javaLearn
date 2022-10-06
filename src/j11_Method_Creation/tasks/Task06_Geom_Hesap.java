@@ -2,7 +2,7 @@ package j11_Method_Creation.tasks;
 
 import java.util.Scanner;
 
-public class Task06 {
+public class Task06_Geom_Hesap {
 
     public static void main(String[] args) {
 		/*

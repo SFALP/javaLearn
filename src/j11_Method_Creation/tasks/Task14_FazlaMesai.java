@@ -2,7 +2,7 @@ package j11_Method_Creation.tasks;
 
 import java.util.Scanner;
 
-public class Task14 {
+public class Task14_FazlaMesai {
 
     public static void main(String[] args) {
 

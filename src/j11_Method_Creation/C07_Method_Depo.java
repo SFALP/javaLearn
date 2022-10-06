@@ -1,6 +1,6 @@
 package j11_Method_Creation;
 
-public class C07_MethodDepo {
+public class C07_Method_Depo {
     // *** AUFMERKSAMKEIT**** ACHTUNG *** C07_MethodCreation isimli class uzerinde calistirildi.
     // main method -->motor olmayacak !!! Ilk defa main olmadan calisilmaktadir.
     // public static void gecmeNotu(int not) malzeme tasiyan romork ozelligindedir. Bu romork bir motora baglanmalidir.

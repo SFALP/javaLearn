@@ -1,6 +1,6 @@
 package j11_Method_Creation;
 
-public class C06_MethodOverloading {
+public class C06_Method_Overloading {
 
     /*
        Java'da  methodlarin farkli olup olmadiklarini  icin
