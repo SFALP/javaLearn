@@ -2,7 +2,7 @@ package j12_Loops.L01_ForLoop.Task;
 
 import java.util.Scanner;
 
-public class Task04_ {
+public class Task04_CiftYazdir {
     public static void main(String[] args) {
 /*
 Girilen iki sayi arasindaki cift sayilari print eden cod create ediniz
