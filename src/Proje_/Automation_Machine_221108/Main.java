@@ -2,7 +2,7 @@ package Proje_.Automation_Machine_221108;
 
 public class Main {
     public static void main(String[] args) {
-        double accountBalance = 1;
+        double accountBalance = 5;
         Urun urun = new Urun();
 
         Options options = new Options();
@@ -10,7 +10,7 @@ public class Main {
 
         urun.setPrice(options.select(urun));
         accountBalance = options.balance(urun.getPrice(), accountBalance, urun);
-        System.out.println(accountBalance);
-
+//        System.out.println(accountBalance);
+options.purchase(urun.getPrice(), accountBalance, urun);
     }
 }

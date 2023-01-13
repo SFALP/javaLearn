@@ -33,6 +33,7 @@ public class Options {
         switch (urun.getProductNum()) {
             case 0:
                 System.out.println("Yine Bekleriz...");
+System.exit(0);
                 break;
             case 1:
                 urun.setPrice(urun.getKraker());
@@ -64,6 +65,15 @@ public class Options {
 
     public double balance(double price, double accountBalance, Urun urun) {
         double fonlama;
+/*
+        try {
+            System.out.println("Halloooooo.....");
+        }
+        // handle
+        catch (Exception e){
+            System.out.println("Catch.......");
+        }
+*/
         while (accountBalance < price) {
             Scanner sc = new Scanner(System.in);
             System.out.print("Yeterli bakiyeniz maalesef bulunmamaktadir... Ekleme yapmak istiyor musunuz? (Y/N): ");
@@ -83,4 +93,25 @@ public class Options {
         }
         return accountBalance;
     }
+    public void purchase(double price, double accountBalance, Urun urun){
+        while (accountBalance>=price){
+accountBalance=accountBalance-price;
+            System.out.println("Kalan Bakiye: "+accountBalance);
+
+            Scanner sc=new Scanner(System.in);
+            System.out.println("Baska bir urun almak ister misiniz (Y/N)?");
+            char confirm=sc.next().toLowerCase().charAt(0);
+
+
+            if (confirm=='n'){
+                System.out.println("Yine bekleriz ...");
+                break;
+            }else {
+                urun.setPrice(select(urun));
+                balance(urun.getPrice(), accountBalance,urun);
+            }
+        }
+    }
+
+
 }

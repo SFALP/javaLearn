@@ -1,4 +1,4 @@
-package Interview;
+package InterviewQuestions;
 
 public class Dummy {
 
